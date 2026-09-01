@@ -1,7 +1,7 @@
 [workspace.package]
 version = "0.2.3"
 description = "EGM96 altitude above WGS84 Ellipsoid"
-edition = "2021"
+edition = "2024"
 license = "Zlib"
 repository = "https://github.com/micahcc/egm96-rs"
 readme = "README.md"
@@ -11,5 +11,5 @@ resolver = "2"
 members = ["egm96", "egm96-c", "egm96-static"]
 
 [workspace.dependencies]
-log = "0"
-env_logger = "0"
+log = "0.4"
+env_logger = "0.11"
